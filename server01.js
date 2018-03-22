@@ -1,7 +1,7 @@
 var http = require('http') //How we require modules
 
 /**
- * Create a server on git
+ * Create a server based on a Git experience.
  * 
  */
 http.createServer( function(request,response){
