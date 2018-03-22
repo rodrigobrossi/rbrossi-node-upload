@@ -10,7 +10,7 @@ logger.on('info', function(message){
 /**
  * Improvement from second to third 
  * @author Rodrigo Brossi
- * 
+ * @default 200ok
  */
 http.createServer( function(request,response){
         response.writeHead(200); //Set the status code in header
